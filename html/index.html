@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FEDERAL INVESTIGATION BUREAU</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('report')">Report Suspect</button>
+      <button onclick="showPage('database')">Database</button>
+      <button onclick="showPage('recruitment')">Careers</button>
+      <button onclick="showPage('contact')">Contact us</button>
+      <button onclick="showPage('sponsori')">Sponsors</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="page">
+      <div class="fib_introduction">
+        <h1>FIB - FEDERAL INVESTIGATION BUREAU</h1>
+        <h3>Greetings, and welcome to 100% real (not fake!) website of FIB! Godbless America and American people!</h3>
+        <p></p>
+        <img src="../assetovi/FIB_logoC.png" alt="FIB LOGO" id="home-img">
+        <br>
+        <h2>TO PROTECT AND SERVE!</h2>
+        <p>
+          At the FIB, we take your privacy very seriously...
+          That’s why we store it all in one convenient (and hopefully secure) database!
+          We’ve been helping protect America from threats — both real and completely imagined... Since last Tuesday.
+          That’s right, we’re practically veterans.
+          Report a suspect today and feel approximately 17% more patriotic, instantly!
+          (It’s scientifically unproven, but emotionally valid.)
+          If you’ve done nothing wrong, you’ve got nothing to worry about… probably.
+          Unless you’ve done something wrong. Then yeah, maybe worry a little.
+          We’re not spying on you.
+          We’re just proactively watching your freedom.
+          It’s totally different. Trust us. We’re the FIB.
+        </p>
+      </div>
+    </section>
+
+    <section id="report" class="page hidden">
+      <div class="sussy_report">
+        <h2>Report Suspect</h2>
+        <p class="about_report">Think you've spotted someone suspicious? Well, you’re probably right. 
+          Report them here and help us fill our database of potential threats — both real and totally made up.
+          The more details you provide, the more we’ll believe you’re the next Sherlock Holmes. Don’t worry, we’re experts at turning every little oddity into a national security crisis. 
+          If we don’t get to them, at least you’ll get a sense of accomplishment... until your wife takes away your kids! 
+        </p>
+        <form id="suspectForm">
+          <p>In order to report the suspect, please fill out this form:</p>
+          <input type="text" placeholder="First Name" id="firstName" required>
+          <input type="text" placeholder="Last Name" id="lastName" required>
+          <input type="text" placeholder="Height (optional)" id="height">
+          <input type="text" placeholder="Weight (optional)" id="weight">
+          <input type="tel" placeholder="Phone Number" id="phone" required>
+          <input type="date" id="dob" required>
+          <input type="text" placeholder="Address" id="address" required>
+          <input type="text" placeholder="Country of Origin" id="country" required>
+          <input type="text" placeholder="Race" id="race" required>
+          <select id="gender" required>
+            <option value="" disabled selected hidden>Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="FIB_Agent" disabled>FIB AGENT (buy our subscription service to access it)</option>
+            <option value="prs_usa" disabled>President of United States (buy our subscription service to access it)</option>
+            <option value="lunix" disabled>Linux User (must send us a neofetch screenshot to access it)</option>
+          </select>
+          <input type="text" placeholder="Social Media (optional)" id="social">
+          <textarea id="notes" placeholder="For additional info that is too classified for the FBI but not for us!"></textarea>
+          <button type="submit">Submit</button>
+          <button type="reset">Clear</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="database" class="page hidden">
+      <div class="baza_podataka">
+        <h2>Suspect Database</h2>
+        <p>
+          Welcome to the Official FIB Suspect Database™! Your one-stop shop for all things shady, suspicious, and mildly inconvenient. 
+          From people who look at you funny to those who never return shopping carts, we've got them all. 
+          Browse with caution: some of these profiles are 100% real, probably. Update them, delete them, or just stare intensely - we’re watching too.
+        </p>
+        <input type="text" placeholder="Find your match..." id="searchBar">
+        <div id="suspectList"></div>
+      </div>
+    </section>
+
+    <section id="recruitment" class="page hidden">
+      <div class="regrutacija">
+     
+      <img src="../assetovi/uncle_sam_alt4.png" alt="Uncle_Sam" id="rec-image">
+      <p>
+        Sorry, but you can’t submit an application right now! Our system detected zero signs of world-domination potential. Your lack of a secret lair, absence of shadowy contacts, and complete inability to monologue villains disqualify you. 
+        Please sharpen your evil scheming skills and try again… maybe in another lifetime.
+      </p>
+      </div>
+    </section>
+
+    <section id="contact" class="page hidden">
+      <div class="tracking_page">
+        <h1>Why bother reaching out? You have been flaged a long time ago...</h1>
+        <p>
+          We already have your IP address. In fact, we’re probably already tracking your location as you read this. 
+          You might not even be aware of it, but soon enough, you'll be receiving a friendly visit from one of our agents! Faster than you can say “suspicious activity.”
+          Don’t worry though, we’re not here to make friends. We’re just here to make sure you’re not a threat to national security... or at least, that you’re not doing anything too suspicious. 
+          If you do need to reach us, you’ll be able to find us on the other end of a mysterious encrypted channel, or, you know... just wait until we show up at your door.
+          In case we’ve missed something important: no need to contact us for support. Our tech guys are on top of things... or, at least, they will be once they finish playing their 12th hour of online chess.
+        </p>
+        <p>
+          And while we're at it, here's a little something to give you a sneak peek into the complex magic of our tracking system. Imagine the most elite hackers working tirelessly behind the scenes... or at least, that’s what we want you to think.
+          Here's your exclusive hackerman gif. Use your imagination!
+        </p>
+        <img src="../assetovi/u_r_pwned.gif" alt="hackerman_gif" id="hacker-gif">
+        
+      </div>
+    </section>
+
+    <section id="sponsori" class="page hidden">
+      <div class="sponzorstvo">
+        <h1>Sponsorhip</h1>
+        <p>
+          It's not enough to harvest money from innocent civilians and hardworking taxpayers, sometimes you have to go corporate! That’s right, thanks to our generous sponsors, we can continue doing absolutely questionable things with an absolutely unquestionable budget. Whether it’s surveillance drones powered by vending machines or black SUVs with leather seats and cupholders... your favorite brands are helping us to keep an eye on you... in style!
+        </p>
+        <div class="spons_slike">
+          <img src="../assetovi/spons/mcd.png" id="mcd">
+          <img src="../assetovi/spons/fbi.png" id="fbi">
+          <img src="../assetovi/spons/vw.png"  id="vw">
+          <img src="../assetovi/spons/stam.png" id="steam">
+          <img src="../assetovi/spons/ch.png"  id="china">
+          <img src="../assetovi/spons/js.png"  id="js">
+          <img src="../assetovi/spons/best.png" id="best">
+        </div>
+        <p>
+          And of course, our most loyal and consistent sponsor of all... you! YES, YOU! Just by visiting this site, you’ve supported us more than any shadowy government contract ever could. Thanks for keeping the lights sort of on.
+          Your data is now officially part of our coffee-fueled analytics program, where interns with questionable clearance levels will stare at it intensely while pretending they know what they’re doing.
+          Every click you make, every scroll you fake, we’ll be watching you — and maybe even making a pie chart about it. 
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>
+      © 2025 FIB - Definitely Not Watching You
+    </p>
+    <img src="../assetovi/fbi_mali2.png" class="mali_fib">
+  </footer>
+
+  <script src="../js/skripta.js"></script>
+</body>
+</html>
+

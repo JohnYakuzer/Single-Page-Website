@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(../assetovi/word_blank.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+  color: #333333; 
+
+}
+
+header {
+  background-color: #111;
+  padding: 10px;
+  text-align: center;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+nav button:hover {
+  background-color: #555;
+}
+.fib_introduction,
+.sussy_report h2,
+.about_report,
+.regrutacija,
+.baza_podataka{
+  text-align: center;
+}
+.fib_introduction p,
+.sussy_report p,
+.baza_podataka p{
+  font-weight: bold;
+}
+
+.regrutacija p{
+  margin-top: 70px; 
+  font-weight: bold;
+  font-size: larger;
+}
+
+.tracking_page{
+  text-align: center;
+  font-weight: bold;
+}
+
+.tracking_page p{
+  margin-top: 50px;
+}
+
+.tracking_page img{
+  width: 550px;
+}
+
+main {
+  padding: 20px;
+}
+
+.page {
+  display: none;
+}
+
+.page:not(.hidden) {
+  display: block;
+}
+
+#home-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  gap: 10px;
+}
+
+form input,
+form select,
+form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #1d2024;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #34383d;
+}
+
+footer{
+  text-align: center;
+  
+  margin-top: 10px;
+}
+
+.mali_fib{
+  width: 60px;
+}
+
+#suspectList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.suspect-card {
+  background-color: rgb(255, 255, 255); 
+  padding: 15px;
+  border-radius: 6px;
+  border-color: #cabdbd;
+  border-style: groove;
+  box-shadow: 0 0 5px #111;
+  width: 100%;
+  max-width: 200px;
+}
+.spons_slike{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#mcd, #fbi, #vw, #steam, #china, #js, #best{
+  width: 100px;
+}
+
+.sponzorstvo{
+  text-align: center;
+  font-weight: bold;
+}
+.sponzorstvo p{
+  margin-top: 50px;
+}
+
+/* nzm gledao sam na net, svako kaze razliciti rez, neki ljudi kazu sto vise resova imas to bolje, 
+ali brt msm ono 720p je danas min i na najjeftinijem phonu*/
+@media (max-width: 720px) {
+  
+  nav {
+    display: flex;
+    flex-wrap: wrap;        
+    justify-content: center; 
+    gap: 10px;              
+  }
+
+  nav button {
+    width: auto;            
+    padding: 8px 12px;     
+    font-size: 14px;       
+    margin: 5px;          
+  }
+
+  
+  #home-img {
+    max-width: 200px;      
+    margin: 10px auto;
+  }
+  .regrutacija img{
+    max-width: 200px;
+  }
+
+ 
+  form {
+    width: 100%;            
+    padding: 0 10px;       
+  }
+
+  form input,
+  form select,
+  form textarea {
+    padding: 8px;           
+    font-size: 14px;       
+  }
+
+ 
+  .suspect-card {
+    width: 100%;           
+    max-width: 125px;      
+    font-size: 14px;      
+    padding: 10px;
+  }
+
+ 
+  .tracking_page img {
+    width: 100%;            
+    max-width: 300px;
+    margin: 10px auto;
+  }
+
+  
+  .fib_introduction p,
+  .sussy_report p,
+  .about_report p,
+  .regrutacija p,
+  .baza_podataka p {
+    font-size: 14px;       
+    padding: 0 15px;        
+  }
+
+ 
+  footer {
+    font-size: 14px;        
+    margin-top: 15px;      
+  }
+
+ 
+}
+
+
+
